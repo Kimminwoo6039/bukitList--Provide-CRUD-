@@ -168,7 +168,7 @@ class _CreatePageState extends State<CreatePage> {
                     // BucketService 가져오기
                     BucketService bucketService = context.read<BucketService>();
                     bucketService.createBucket(job);
-                    Navigator.pop(context); // 화면을 종료합니다.
+                    Navigator.pop(context); // 화면을 종료합니다.1
                   }
                 },
               ),
